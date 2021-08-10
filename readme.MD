@@ -14,7 +14,7 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - A checklist of assignments I'll be working on:
 #
 - Week 1-6: Javascript
-    - [ ] - Hello World
+    - [x] - Hello World
     - [ ] - About Me & Description
     - [ ] - Array's and Loop's
     - [ ] - Functions
