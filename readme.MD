@@ -26,6 +26,7 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
             if ((luckyNumber === 2) && (adventurous) ) { // does not need to be adventurous = true
                     console.log( '"Roll the Dice!"' );
                 }
+                
     - [ ] - Array's and Loop's
     - [ ] - Functions
     - [ ] - Objects
