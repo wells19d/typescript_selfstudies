@@ -15,7 +15,17 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 #
 - Week 1-6: Javascript
     - [x] - Hello World
-    - [ ] - About Me & Description
+    - [x] - About Me & Description
+        - Note: I've noticed that using a boolean statement during a if else statement, if the boolean is being looked at as as true or false, you don't need to compare if it is true or false. Just calling the variable will check.
+        - ``` 
+            if (adventurous) { // does not neet to be adventurous === true
+                    console.log('Adventures are great!');
+                } else {
+                    console.log('How about we stay home?');
+
+            if ((luckyNumber === 2) && (adventurous) ) { // does not need to be adventurous = true
+                    console.log( '"Roll the Dice!"' );
+                }
     - [ ] - Array's and Loop's
     - [ ] - Functions
     - [ ] - Objects
