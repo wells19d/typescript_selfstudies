@@ -1,0 +1,70 @@
+header {
+    background-color: rgb(107, 124, 134);
+    color: white;
+    font-family: Calibri, Optima;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    padding-left: 25px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    font-size: 16px;
+}
+h2 {
+    background-color: rgb(225, 50, 25);
+    color: black;
+    font-family: Calibri,
+    Optima;
+    padding: 10px;
+    margin: auto;
+}
+h3 {
+    background-color: white;
+    color: black;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 400px;
+}
+.div1{
+    background-color: black;
+    font-family: Calibri, Optima;
+    color: white;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+
+
+
+
+
+.example {
+    color: red;
+}
+
+.example2 {
+    color: blue;
+}
+
+.example3 {
+    color: green;
+} 
