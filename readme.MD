@@ -14,8 +14,8 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - A checklist of assignments I'll be working on:
 #
 - Week 1-6: Javascript
-    - [x] - Hello World
-    - [x] - About Me & Description
+    - [x] - Wk-1: Hello World
+    - [x] - Wk-2: About Me & Description
         - Note: I've noticed that using a boolean statement during a if else statement, if the boolean is being looked at as as true or false, you don't need to compare if it is true or false. Just calling the variable will check.
         - ``` 
             if (adventurous) { // does not neet to be adventurous === true
@@ -27,10 +27,11 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
                     console.log( '"Roll the Dice!"' );
                 }
                 
-    - [ ] - Array's and Loop's
-    - [ ] - Functions
-    - [ ] - Objects
-    - [ ] - Overall (Garage)
+    - [x] - Wk-3: Array's and Loop's
+        - Note: Loops and Array's seem to still funciton to same between JavaScript and TypeScript
+    - [ ] - Wk-4: Functions
+    - [ ] - Wk-5: Objects
+    - [ ] - Wk-6: Overall (Garage)
 #    
 - Week 7: jQuery
     - [ ] - MicroChallenges
