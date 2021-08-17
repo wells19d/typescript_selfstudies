@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/jquery-3.6.0.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <!-- <script src="scripts/client2.js" charset="utf-8"></script> -->
+
+    <title>Week 6 Tier 1 Assignment</title>
+  </head>
+  <body>
+    <div class="div1">
+    <h1>Week 6 Tier 1 Assignment</h1>
+  </div>
+    <div class="div2">
+    <h2 class="totalGarageValue">
+      Total Garage Value: $<span id="totalGarageValues"></span>
+    </h2>
+  </div>
+  <div class="div3">
+    <h3>
+      <form>
+        Add Car:<br>
+        <input type="number" placeholder="Year" id="yearInput" required />
+        <input type="text" placeholder="Make" id="makeInput" required />
+        <input type="text" placeholder="Model" id="modelInput" required />
+        <input type="number" placeholder="Est Value" id="valueInput" required />
+        <input type="text" placeholder="Insert HTML Address" id="imageInput" width="100px"/>
+        <input type="submit" id="addCarToGarage" value="Add to Garage" disabled="disabled"/>
+      </form>
+    </h3>
+  </div>
+  <div class="div4">
+    <h3 class="inGarage">
+      What's in the Garage:
+      <ul id="carsListInGarage"></ul>
+    </h3>
+  </div>
+  </body>
+</html>
