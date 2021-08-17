@@ -21,8 +21,7 @@ function totalGarageValue() {
     totalValue += Number(garage[i].value);
     console.log('totalValue:', totalValue);
     let el = $('#totalGarageValues');
-    el.empty();
-    el.append(Object.values(totalValue));
+    el.append(totalValue); // This works yet I get a no overload match call 
     console.log(garage);
   }
 };
