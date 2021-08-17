@@ -1,0 +1,10 @@
+div {
+    width: 500px;
+;
+}
+
+.redBackground {
+background-color: red;
+border: 1px solid black;
+margin: 5px;
+}
