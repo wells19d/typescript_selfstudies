@@ -30,9 +30,14 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
     - [x] - Wk-3: Array's and Loop's
         - Note: Loops and Array's seem to still funciton to same between JavaScript and TypeScript
     - [x] - Wk-4: Functions
-        - Note: Functions work similar, but arrow functions still need some type of helper `let = function`
+        - Note: Short hand functions still work
+        ```
+        newFunction = () => {
+            console.log('function works');
+        }
+        ```
     - [x] - Wk-5: Objects
-    - [ ] - Wk-6: Overall (Garage)
+    - [x] - Wk-6: Overall (Garage)
 #    
 - Week 7: jQuery
     - [ ] - MicroChallenges
