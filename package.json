@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/jquery": "^3.5.6"
+  },
+  "dependencies": {
+    "js-to-ts-converter": "^0.18.1"
   }
 }

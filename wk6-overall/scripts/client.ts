@@ -1,43 +1,46 @@
-$(document).ready(nowReady);
-
-let garage = [];
-console.log(garage);
-
-function nowReady () {
-  console.log('jq ready');
-};
-
-
-const newCarObject = {
-  
-};
-console.log(newCarObject);
-
-/*
-
-+$(document).ready(readyNow);
+$(document).ready(readyNow);
 
 let garage = [];
 // console.log('What\'s in the garage?', garage);
 
-newCar = () => {
+function newCar() {
   const newCarObject = {
-    year: yearInput,
-    make: makeInput,
-    model: modelInput,
-    value: valueInput,
-    image: imageInput,
+    year: Number,
+    make: String,
+    model: String,
+    value: Number,
+    image: String,
   };
   garage.push(newCarObject);
   return true;
 };
 
-addCar = () => {
+function totalGarageValue() {
+  let totalValue = 0;
+  for (let i = 0; i < garage.length; i++) {
+    totalValue += Number(garage[i].value);
+    console.log('totalValue:', totalValue);
+    let el = $('#totalGarageValues');
+    el.empty();
+    el.append(Object.values(totalValue));
+    console.log(garage);
+  }
+};
+
+function displayCarsInGarage (car) {
+  let el = $('#carsListInGarage');
+  el.empty();
+  for (car of garage) {
+    el.append(`<li> ${car.year} ${car.make} ${car.model} $${car.value} <img src= "${car.image}" width="100px" /></li>`);
+  }
+};
+
+function addCar() {
   let newCar = {
-    year: parseInt($('#yearInput').val()),
+    year: $('#yearInput').val(),
     make: $('#makeInput').val(),
     model: $('#modelInput').val(),
-    value: parseInt($('#valueInput').val()),
+    value: $('#valueInput').val(),
     image: $('#imageInput').val(),
   };
   garage.push(newCar);
@@ -49,28 +52,10 @@ addCar = () => {
   $('#imageInput').val('');
 
   totalGarageValue();
-  displayCarsInGarage();
+  displayCarsInGarage(garage);
 };
 
-totalGarageValue = () => {
-    let totalValue = 0;
-    for (let i = 0; i < garage.length; i++) {
-        totalValue += Number(garage[i].value);
-        console.log('totalValue:', totalValue);
-        let el = $('#totalGarageValues');
-        el.empty();
-        el.append(totalValue);
-        console.log(garage);
-    }
-};
 
-displayCarsInGarage = () => {
-    let el = $('#carsListInGarage');
-  el.empty();
-  for (car of garage) {
-    el.append(`<li> ${car.year} ${car.make} ${car.model} $${car.value} <img src= "${car.image}" width="100px" /></li>`);
-  }
-};
 
 function readyNow() {
   // console.log('jq is ready');
@@ -93,5 +78,3 @@ function readyNow() {
 
   totalGarageValue();
 }
-
-*/
