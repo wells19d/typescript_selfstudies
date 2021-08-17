@@ -38,9 +38,11 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
         ```
     - [x] - Wk-5: Objects
     - [x] - Wk-6: Overall (Garage)
+        - Note: Append doesn't quite work correctly. Researching why vscode is throwing an error, yet the code works to display to the dom
 #    
 - Week 7: jQuery
-    - [ ] - Student Portal (Weekend Project)
+    - [x] - Student Portal (Weekend Project)
+        -  Note: Append Issue
 #
 - Week 8: NodeJS
     - [ ] - TBT
