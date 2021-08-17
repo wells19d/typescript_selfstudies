@@ -47,13 +47,7 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - Week 8: NodeJS
     - [x] - 1: jQuery Color Swap
     - [x] - 2: Group: Guess Who
-    - [ ] - 3: Nordic Node
-    - [ ] - 4: Manipulative Modules
-    - [ ] - 5: The Express Express
-    - [ ] - 6: Module Madness
-    - [ ] - 7: Get Some Tennis
-    - [ ] - 8: Group: Number Guessing Game
-    - [ ] - 9: Weekend Challege - Server Side Calculator
+    - [ ] - 3: Server Side Calculator
 #
 - Week 9: SQL Database
     - [ ] - TBT
