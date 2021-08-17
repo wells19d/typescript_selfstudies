@@ -1,0 +1,31 @@
+body {
+    background-image: url('../record.png');
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    font-family: Calibri, Optima;
+    padding-top: .5px;
+    padding-bottom: .5px;
+    padding-left: 75px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    background-color: lightgray;
+    font-family: Calibri, Optima;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    width: 900px;
+    padding: 1em;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
