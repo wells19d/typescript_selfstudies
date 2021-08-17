@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./vendors/jquery.js"></script>
+    <!-- <script src="./scripts/client.ts"></script> -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Week 8 - Weekend Project - Server Side Calculator</title>
+</head>
+<h1>Server Side Calculator</h1>
+<body>
+    <div>
+        <table>
+            <thead>
+                <!-- Going to use for later for display -->
+            </thead>
+            <tbody>
+                <input id="firstNumber" type="number" placeholder="First Number" /> &nbsp;
+                <button id="plusButton" class="operator" >+</button> &nbsp;
+                <button id="minusButton" class="operator">-</button> &nbsp;
+                <button id="multiplyButton" class="operator">*</button> &nbsp;
+                <button id="dividebutton" class="operator">/</button>&nbsp;
+                <input id="secondNumber"  type="number" placeholder="Second Number" /> &nbsp;
+                <button id="equalsButton">=</button> &nbsp;
+                <button id="allClear">C</button> &nbsp;
+                <p>
+                <ul class="display">
+                    <!-- Current Total Display Here -->
+                </ul>
+                <ul id="history">
+                    <!-- Display History Here -->
+                </ul>
+                </p>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

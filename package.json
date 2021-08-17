@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@types/jquery": "^3.5.6",
-    "@types/node": "^16.6.1"
-  },
-  "dependencies": {
-    "js-to-ts-converter": "^0.18.1"
-  }
-}

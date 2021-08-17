@@ -1,0 +1,16 @@
+.display {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 5%;
+}
+
+main {
+    background-color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
