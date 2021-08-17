@@ -1,4 +1,21 @@
-$(document).ready(readyNow);
+$(document).ready(nowReady);
+
+let garage = [];
+console.log(garage);
+
+function nowReady () {
+  console.log('jq ready');
+};
+
+
+const newCarObject = {
+  
+};
+console.log(newCarObject);
+
+/*
+
++$(document).ready(readyNow);
 
 let garage = [];
 // console.log('What\'s in the garage?', garage);
@@ -76,3 +93,5 @@ function readyNow() {
 
   totalGarageValue();
 }
+
+*/

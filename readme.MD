@@ -40,9 +40,6 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
     - [x] - Wk-6: Overall (Garage)
 #    
 - Week 7: jQuery
-    - [ ] - MicroChallenges
-    - [ ] - Breakfast Object Objections
-    - [ ] - Color Blocks
     - [ ] - Student Portal (Weekend Project)
 #
 - Week 8: NodeJS

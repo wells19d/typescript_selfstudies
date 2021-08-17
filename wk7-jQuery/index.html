@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/script.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Weekend Challenge: jQuery Salary Calculator</title>
+</head>
+<body>
+    <div>
+        <table class="tablebase" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <th colspan="6" class="header">Salary Calculator</th>
+                    </tr>
+                    <tr>
+                        <td colspan="6"><p>Add Employee</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="input">
+                            <input id="employeeFirstName" type="text" placeholder="First Name" required>
+                            <input id="employeeLastName" type="text" placeholder="Last Name" required>
+                            <input id="employeeID" type="text" placeholder="ID" required>
+                            <input id="employeeTitle" type="text" placeholder="Title" required>
+                            <input id="employeeSalary" type="number" placeholder="Annual Salary" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="submitButton"><input type="button" value="    Submit    "></td>
+                    </tr>
+                    <tr>
+                        <td colspan="6"><p>Employees</p></td>
+                    </tr>
+                        <tr>
+                            <td class="thFirstName">First Name</td>
+                            <td class="thLastName">Last Name</td>
+                            <td class="thID">ID</td>
+                            <td class="thTitle">Title</td>
+                            <td class="thSalary">Annual Salary</td>
+                            <td class="thDelete">&nbsp;</td>
+                        </tr>
+                    <tbody id="employeeList"> 
+                        <!-- This is where all my changes are going to happen, on the DOM -->
+                    </tbody>
+                    <tr>
+                        <td colspan="6" class="tableFooter">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="totalMonthly">Total Monthly:</td>
+                        <td class="totalBalance"></td>
+                    </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
