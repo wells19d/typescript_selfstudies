@@ -47,7 +47,7 @@ function equals(event) {
     },
   }).then(function (response) {
     displayHistory();
-    clearFields(operator);
+    clearFields(operator); // how does this pass through?
   });
 }
 
