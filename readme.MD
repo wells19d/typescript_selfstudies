@@ -47,7 +47,8 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - Week 8: NodeJS
     - [x] - 1: jQuery Color Swap
     - [x] - 2: Group: Guess Who
-    - [ ] - 3: Server Side Calculator
+    - [x] - 3: Express Express
+    - [ ] - 4: Server Side Calculator
 #
 - Week 9: SQL Database
     - [ ] - TBT
