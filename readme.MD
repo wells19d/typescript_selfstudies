@@ -54,7 +54,7 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
     - - After trying to just move into the weekend assignment, I realized need to look further into express again and make sure I fully understand it. I'm going to be expanding on more of the assignments from week 8.
     - [x] - 1: jQuery Color Swap
     - [x] - 2: Group: Guess Who
-    - [ ] - 3: The Express Express (added)
+    - [x] - 3: The Express Express (added)
     - [ ] - ?: Server Side Calculator (for now the order is unassigned)
 #
 - Week 9: SQL Database
