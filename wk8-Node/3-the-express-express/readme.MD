@@ -8,6 +8,8 @@
 
 ## Base
 
+- I used postman to test my routes instead of using an index.html
+
 Do all of your javascript work in one file (`server.js`). No need to break things out into other files yet.
 Do NOT open the index.html to check your work, it will not 
 
@@ -25,3 +27,4 @@ Do NOT open the index.html to check your work, it will not
 - `localhost:5000/random` should return a random train every time the route is visited
 - Move the list of trains into `modules/trains.js`
 - Moment is a common javascript module used for time. `npm install moment` and use it to show the time of the next train. Trains run every ten minutes starting at the top of the hour. So visiting `localhost:5000/next` at 2:35pm should should `2:40pm` as the result.
+
