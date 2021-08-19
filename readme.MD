@@ -67,5 +67,20 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - Week 14: 
     - [ ] - Solo Project
 
-##
-Github personal access was changed for August 13th. This is just some notes I'm added on how I fixed the problem.
+## Github personal access was changed for August 13th.
+Thanks to Blaine Booher for assistance. Last week I haven't been able to properly push my work using VSCode, but instead had to install Github's desktop application. It's a great app, but it has made some personal limitations for what I'm used to using. After days of documentation reading and lots of trial and error, he helped make this a quick fix. These are some notes on how he helped me fixed the problem.
+
+- Open new terminal
+    - ``` ls ~/.ssh ``` to make sure I didn't have a file made
+    - ``` ssh-keygen -t rsa ``` to generate a public / private rsa key pair
+        - entered passed paraphrase
+    - ``` ls ~/.ssh ``` again to check if files where created.
+    - ``` cat ~/.ssh/is_rsa.pub ``` to create they ssh key.
+    - open Github and created a new SSH Key inside ``` settings > SHH and GHG keys ```
+    - Named and copied the is_rsa.pub key into input field
+    - ran ``` ssh git@github.com ``` to generate authentication
+    - ``` git remote -v ``` to check remote.
+    - ``` git remote rm origin ``` to remove the origin location
+    - ``` git add origin git@github.com:wells19d/typescript_selfstudies.git ``` to assign project.
+
+I was now successfully able to now push remotes to the master.
