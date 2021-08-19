@@ -13,6 +13,9 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 - Added: I'm going to start including some of the readme.MD's from the assignments to better understand the assignment of what needs to be done. Hopefully this will help anyone that wants to re-use what I've done to learn TypeScript, they can understand what I was trying to do, maybe even correct my errors, even helping me learn from them as well.
     - Sorry, english isn't my best subject. :D
 
+- Server projects (multiple servers in overall project):
+    - After working on "The Express Express", If anyone uses these in the future, they will need to pull these folders off before running the server, otherwise they will need to change the path of the files to match up for which "server" they are running. I would recommend opening the folders directly for each single project for simplicity.
+
 ## Lesson List
 - A checklist of assignments I'll be working on:
 #
