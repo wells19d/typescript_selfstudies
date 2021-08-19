@@ -42,6 +42,13 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
             console.log('function works');
         }
         ```
+        - Added Note: Be careful using simple arrow functions in TypeScript. I've found on a few occations, this arrow function doesn't work correctly and still has to have a decloration or either ```let``` or ```const```.
+        ```
+        let newFunction = () => {
+            console.log('function works');
+        }
+        ```
+        
     - [x] - Wk-5: Objects
     - [x] - Wk-6: Overall (Garage)
         - Note: Append doesn't quite work correctly. Researching why vscode is throwing an error, yet the code works to display to the dom.
