@@ -1,5 +1,5 @@
 # TypeScript Self Studies
-One of my goals, post graduation from Emerging Digital Academy, is learning TypeScript. This repo will cover just that. 
+One of my goals, post graduation from Emerging Digital Academy, is learning TypeScript. This repo will cover just that. To shorten the length of time I'll be spending on this, I've re-used most of my JavaScript I've written or received for TypeScript. The code that isn't compatible with TypeScript is what will be re-written.
 
 - This is a self study course, I will be taking the lessons I learned, over the 20 week course at EDA, and turn them into TypeScript projects.
 - The projects listed where all written in different languages, (jQuery, Node, Express, React) but I'll be moving them into TypeScript.
@@ -9,6 +9,9 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
     - Bootstrap
     - Material UI
     - Tailwind
+
+- Added: I'm going to start including some of the readme.MD's from the assignments to better understand the assignment of what needs to be done. Hopefully this will help anyone that wants to re-use what I've done to learn TypeScript, they can understand what I was trying to do, maybe even correct my errors, even helping me learn from them as well.
+    - Sorry, english isn't my best subject. :D
 
 ## Lesson List
 - A checklist of assignments I'll be working on:
@@ -38,16 +41,18 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
         ```
     - [x] - Wk-5: Objects
     - [x] - Wk-6: Overall (Garage)
-        - Note: Append doesn't quite work correctly. Researching why vscode is throwing an error, yet the code works to display to the dom
+        - Note: Append doesn't quite work correctly. Researching why vscode is throwing an error, yet the code works to display to the dom.
 #    
 - Week 7: jQuery
     - [x] - Student Portal (Weekend Project)
-        -  Note: Append Issue
+        -  Note: Append Issue. Not sure how to correct this just yet. I've reached out to a few other developers for assistance, just waiting on response. The information I've found on stackoverflow.com or google searches, doesn't quite give me the answer I'm looking for.
 #
 - Week 8: NodeJS
+    - - After trying to just move into the weekend assignment, I realized need to look further into express again and make sure I fully understand it. I'm going to be expanding on more of the assignments from week 8.
     - [x] - 1: jQuery Color Swap
     - [x] - 2: Group: Guess Who
-    - [ ] - 3: Server Side Calculator
+    - [ ] - 3: The Express Express (added)
+    - [ ] - ?: Server Side Calculator (for now the order is unassigned)
 #
 - Week 9: SQL Database
     - [ ] - TBT
@@ -74,11 +79,11 @@ Thanks to Blaine Booher for assistance. Last week I haven't been able to properl
     - ``` ls ~/.ssh ``` to make sure I didn't have a file made
     - ``` ssh-keygen -t rsa ``` to generate a public / private rsa key pair
         - entered passed paraphrase
-    - ``` ls ~/.ssh ``` again to check if files where created.
-    - ``` cat ~/.ssh/is_rsa.pub ``` to create they ssh key.
+    - ``` ls ~/.ssh ``` again to check if files were created.
+    - ``` cat ~/.ssh/is_rsa.pub ``` to read the ssh key.
     - open Github and created a new SSH Key inside ``` settings > SHH and GHG keys ```
     - Named and copied the is_rsa.pub key into input field
-    - ran ``` ssh git@github.com ``` to generate authentication
+    - ran ``` ssh git@github.com ``` to verify that github can identify the key given
     - ``` git remote -v ``` to check remote.
     - ``` git remote rm origin ``` to remove the origin location
     - ``` git add origin git@github.com:wells19d/typescript_selfstudies.git ``` to assign project.
