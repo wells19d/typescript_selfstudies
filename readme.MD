@@ -66,3 +66,6 @@ One of my goals, post graduation from Emerging Digital Academy, is learning Type
 #
 - Week 14: 
     - [ ] - Solo Project
+
+##
+Github personal access was changed for August 13th. This is just some notes I'm added on how I fixed the problem.
