@@ -1,5 +1,5 @@
 # TypeScript Self Studies
-One of my goals, post graduation from Emerging Digital Academy, is learning TypeScript. This repo will cover just that. To shorten the length of time I'll be spending on this, I've re-used most of my JavaScript I've written or received for TypeScript. The code that isn't compatible with TypeScript is what will be re-written.
+One of my goals, post graduation from Emerging Digital Academy, is learning TypeScript. This repo will cover just that. To shorten the length of time I'll be spending on this, I've re-used most of my JavaScript I've written or received, for my TypeScript. The code that isn't compatible with TypeScript is what will be re-written.
 
 - This is a self study course, I will be taking the lessons I learned, over the 20 week course at EDA, and turn them into TypeScript projects.
 - The projects listed where all written in different languages, (jQuery, Node, Express, React) but I'll be moving them into TypeScript.
